@@ -261,7 +261,7 @@ function jsrms_result_using_ajax()
 								<td><?php echo esc_html(get_post_meta($post_id, '_jp_student_father_name', true)); ?></td>
 							</tr>
 							<tr>
-								<td>Session Year</td>
+								<td>Session</td>
 								<td><?php echo esc_html(get_post_meta($post_id, '_jp_student_mother_name', true)); ?></td>
 							</tr>
 							<tr>
@@ -273,7 +273,7 @@ function jsrms_result_using_ajax()
 								<td><?php echo esc_html(get_post_meta($post_id, '_jp_student_reg', true)); ?></td>
 							</tr>
 							<tr>
-								<td>Percentage Marks</td>
+								<td>Percentage</td>
 								<td><?php echo esc_html(get_post_meta($post_id, '_jp_total_gpa', true)); ?></td>
 							</tr>
 						</tbody>
