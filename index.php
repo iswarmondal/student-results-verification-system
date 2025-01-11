@@ -257,11 +257,7 @@ function jsrms_result_using_ajax()
 								<td><?php the_title(); ?></td>
 							</tr>
 							<tr>
-								<td>Registration No.</td>
-								<td><?php echo esc_html(get_post_meta($post_id, '_jp_student_reg', true)); ?></td>
-							</tr>
-							<tr>
-								<td>Father's Name</td>
+								<td>Care of</td>
 								<td><?php echo esc_html(get_post_meta($post_id, '_jp_student_father_name', true)); ?></td>
 							</tr>
 							<tr>
@@ -269,8 +265,12 @@ function jsrms_result_using_ajax()
 								<td><?php echo esc_html(get_post_meta($post_id, '_jp_student_mother_name', true)); ?></td>
 							</tr>
 							<tr>
-								<td>Student Type</td>
+								<td>Course</td>
 								<td><?php echo esc_html(get_post_meta($post_id, '_jp_student_type', true)); ?></td>
+							</tr>
+							<tr>
+								<td>Certificate No.</td>
+								<td><?php echo esc_html(get_post_meta($post_id, '_jp_student_reg', true)); ?></td>
 							</tr>
 							<tr>
 								<td>Percentage Marks</td>
